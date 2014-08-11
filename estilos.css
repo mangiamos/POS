@@ -1,0 +1,207 @@
+a 
+{
+	text-decoration: none;
+}
+body 
+{
+	background: white;
+	font-family:'Open Sans', Sans-Serif, Arial;
+	font-size: 16px;
+}
+header
+{
+	background: #356BA1;
+}
+figure img 
+{
+	padding: 0.5em 0;
+	width: 100px;
+}
+nav
+{
+	background: #3C3C3C;
+}
+nav ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav ul li 
+{
+	display: inline-block;
+}
+nav ul li a 
+{
+	color: white;
+	display: block;
+	padding: 0.5em;
+}
+nav ul li a:hover
+{
+	background: #356BA1;
+}
+#botonesCompra
+{
+	background: -webkit-gradient(linear,50% 0,50% 100%,color-stop(0%,#f7f7f7),color-stop(100%,#ededed));
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	padding: 1em 0;
+}
+#botonesCompra ul
+{ 
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+#botonesCompra ul li 
+{
+	display: inline-block;
+
+}
+#botonesCompra ul li a
+{
+	background: -webkit-gradient(linear,50% 0,50% 100%,color-stop(0%,#767676),color-stop(100%,#434343));
+	border: 1px solid black;
+	border-radius: 5px;
+	color: white;
+	display: block; 
+	margin-left: 0.6em;
+	padding: 0.5em;
+}
+#busquedaProducto
+{
+	background: linear-gradient(#ececec,#dcdcdc);
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom: 1px solid #9f9f9f;
+	padding: 0.5em;		
+}
+#busquedaProducto button
+{
+	background-image: -webkit-gradient(linear,50% 0,50% 100%,color-stop(0%,#fefefe),color-stop(100%,#cacaca));
+	margin: 0 0 0 1em;
+	width: 16%;
+}
+#busquedaProducto #busqueda
+{
+	border: 1px solid #9f9f9f;
+	border-radius: 5px;
+	margin: 0 0 0 0.5em;
+	width: 75%;
+}
+#contenido
+{
+	font-size: 0;
+	margin: 16px;
+}
+#detallesVenta
+{
+	font-size: 16px;
+	border:1px solid #9f9f9f;
+	border-radius: 5px;
+	width: 48%;
+}
+#infoCliente
+{
+	padding: 0 0 3em 0;
+	width: 55%;
+}
+#infoCliente a
+{
+	color: #06C;
+	text-decoration: underline;
+}
+#infoCompra
+{
+	margin: 1em;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+#infoCompra table tr td 
+{
+	padding: 0.2em 0;
+}
+#infoCompra table .linea
+{
+	border-bottom: 1px solid black;
+}
+#infoCompra table .valor
+{
+	padding-left: 2em;
+}
+#infoVenta
+{
+	border-bottom: 1px solid #9F9F9F;
+	padding: 1em 1em 2em 1em;
+	position: relative;
+}
+#listaProductos
+{
+	border-bottom: 1px solid #9F9F9F;
+	min-height: 16em;
+}
+#listaProductos ul 
+{
+	border-bottom: 1px solid #9F9F9F;
+	list-style: none;
+	margin: 0;
+	padding: 0.5em 0;
+}
+#listaProductos ul li a 
+{
+	display: block;
+}
+#listaProductos ul li 
+{
+	display: inline-block;
+}
+#listaProductos .productoCantidad
+{
+	background: linear-gradient(#FFF,#ECECEC);
+	border: 1px solid #9F9F9F;
+	border-radius: 50%;
+	color: black;
+	margin: 0 1em 0 1em; 
+	padding: 5px 12px;
+}
+#listaProductos .productoImporte
+{
+	margin-right: 1em;
+}
+#listaProductos .productoNombre
+{
+	color: #06C;
+	margin-right: 2	em;
+	text-decoration: underline;
+}
+#listaProductos .productoPrecio
+{
+	background: linear-gradient(#FFF,#ECECEC);
+	border: 1px solid #9F9F9F;
+	border-radius: 10px;
+	color: black;
+	margin-right: 2em;
+	padding: 5px 12px;
+}
+#listaProductos .productoPrecio:hover,
+#listaProductos .productoCantidad:hover
+{
+	background: linear-gradient(#6DA8FB,#3B77D7);
+	border: 1px solid #06C;
+	color: white;
+}
+#opcionesProductos, #detallesVenta
+{
+	display: inline-block;
+	vertical-align: top;
+}
+#opcionesProductos
+{
+	font-size: 16px;
+	background: red;
+	margin-left: 2em;
+	width: 48%;
+}

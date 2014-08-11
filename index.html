@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+	<title>Sistema Ventas</title>
+	<link rel="stylesheet" href="normalize.css" />
+	<link rel="stylesheet" href="estilos.css" />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<header>
+		<figure id="logo">
+			<img src="img/logo.png">
+		</figure>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#">HOME</a></li>
+			<li><a href="#">REPORTES</a></li>
+			<li><a href="#">USUARIOS</a></li>
+			<li><a href="#">LOGOUT</a></li>
+		</ul>
+	</nav>
+	<section id="contenido">
+		<article id="detallesVenta">
+			<div id="busquedaProducto">
+				<input type="text" id="busqueda" placeholder="Buscar Producto" />
+				<button type="button" class="boton">Agregar</button>
+			</div>
+			<div id="listaProductos">
+				<ul>
+					<li><a href="#" class="productoCantidad">1</a></li>
+					<li><a href="#" class="productoNombre">PIZZA PEPERONI</a></li>
+					<li><a href="#" class="productoPrecio">$100.00</a></li>
+					<li><a href="#" class="productoImporte">$200.00</a></li>
+					<li><a href="#" class="eliminar">X</a></li>
+				</ul>
+			</div>
+			<div id="infoVenta">
+				<div id="infoCliente">
+					<label><strong>Cliente:</strong></label>
+					<a href="#">Hector Rodriguez</a>
+				</div>
+				<div id="infoCompra">
+					<table>
+						<tr>
+							<td>Subtotal</td>
+							<td class="valor">$0.00</td>
+						</tr>
+						<tr>
+							<td>Iva</td>
+							<td class="valor">$0.00</td>
+						</tr>
+						<tr class="linea">
+							<td><strong>Total</strong></td>
+							<td class="valor">
+								<strong>$0.00</strong>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div id="botonesCompra">
+				<ul>
+					<li><a href="#">Cancelar</a></li>
+					<li><a href="#">Notas</a></li>
+					<li><a href="#">Cobrar</a></li>
+					<li><a href="#">Descuento</a></li>
+					<li><a href="#">Regresar</a></li>
+				</ul>
+			</div>
+		</article>
+		<article id="opcionesProductos">
+			<div id="categorias">
+				<ul class="boton">
+					<li><button type="boton">PIZZAS</button></li>
+					<li><button type="boton">ALITAS</button></li>
+					<li><button type="boton">ENSALADAS</button></li>
+					<li><button type="boton">BEBIDAS</button></li>
+					<li><button type="boton">REFRESCOS</button></li>
+					<li><button type="boton">PASTAS</button></li>
+					<li><button type="boton">POSTRES</button></li>
+					<li><button type="boton">OTROS</button></li>
+				</ul>
+			</div>
+		</article>
+	</section>
+</body>
+</html>
